@@ -1,11 +1,12 @@
-import socket
-import threading
-
-# File: pyrc_client
-# Version: 0.0.1
+# PyRC Client [Version 0.0.1]
+# Author: Levi Schubert [me@Levischubert.com]
 # Description: A python client to send and receive chat messages with its corresponding server
-# Author: Levi Schubert
+# Date: 4/25/18
 
+import socket
+import _thread
+# import cryptography
+import time
 
 global command
 global connected
